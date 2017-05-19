@@ -1,4 +1,4 @@
-/* $Id: avl_GetBestFit.cpp.h 83575 2013-02-04 14:27:54Z fmehnert $ */
+/* $Id: avl_GetBestFit.cpp.h 114582 2017-04-13 13:21:35Z fmehnert $ */
 /** @file
  * kAVLGetBestFit - Get Best Fit routine for AVL trees.
  *                  Intended specially on heaps. The tree should allow duplicate keys.
@@ -6,7 +6,7 @@
  */
 
 /*
- * Copyright (C) 1999-2012 knut st. osmundsen (bird-src-spam@anduin.net)
+ * Copyright (C) 2006-2017 Oracle Corporation
  *
  * This file is part of VirtualBox Open Source Edition (OSE), as
  * available from http://www.virtualbox.org. This file is free software;

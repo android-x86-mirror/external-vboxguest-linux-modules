@@ -1,4 +1,4 @@
-/* $Id: the-linux-kernel.h 109855 2016-08-09 16:35:40Z bird $ */
+/* $Id: the-linux-kernel.h 113828 2017-03-08 10:10:39Z fmehnert $ */
 /** @file
  * IPRT - Include all necessary headers for the Linux kernel.
  */
@@ -102,6 +102,10 @@
 #include <linux/sched.h>
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(3, 9, 0)
 # include <linux/sched/rt.h>
+#endif
+#if LINUX_VERSION_CODE >= KERNEL_VERSION(4, 11, 0)
+# include <linux/sched/signal.h>
+# include <linux/sched/types.h>
 #endif
 #if LINUX_VERSION_CODE >= KERNEL_VERSION(2, 6, 7)
 # include <linux/jiffies.h>
